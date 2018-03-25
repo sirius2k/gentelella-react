@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import './SideBar.css';
 import Clearfix from 'react-clearfix';
 import TitleBar from './TitleBar';
+import Profile from './Profile';
 
 class SideBar extends React.Component {
   static get propTypes() {
@@ -15,22 +16,7 @@ class SideBar extends React.Component {
           <div className="left_col scroll-view">
             <TitleBar/>
             <Clearfix/>
-            {/* 
-              TODO : Remove clearfix
-              <div className="clearfix"></div> 
-            */}
-
-            {/* <!-- menu profile quick info --> */}
-            <div className="profile clearfix">
-              <div className="profile_pic">
-                <img src="images/img.jpg" alt="..." className="img-circle profile_img"/>
-              </div>
-              <div className="profile_info">
-                <span>Welcome,</span>
-                <h2>John Doe</h2>
-              </div>
-            </div>
-            {/* <!-- /menu profile quick info --> */}
+            <Profile/>
             <br />
             {/* <!-- sidebar menu --> */}
             <div id="sidebar-menu" className="main_menu_side hidden-print main_menu">
