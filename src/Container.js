@@ -1,17 +1,10 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import SideBar from './common/SideBar';
-import TopNavigation from './common/TopNavigation';
+import SideBar from './layout/sidebar/SideBar';
+import TopNavigation from './layout/TopNavigation';
 import Dashboard from './dashboard/Dashboard';
-import Footer from './common/Footer';
+import Footer from './layout/Footer';
 
 class Container extends React.Component {
-    static get propTypes() {
-        return {
-            bodyClassName: PropTypes.string
-        }
-    }
-
     constructor(props) {
         super(props);
         this.state = {
@@ -22,7 +15,7 @@ class Container extends React.Component {
     }
 
     handleMenuToggle() {
-        console.log("handleMenuToggle triggered! bodyClassName=" + this.props.bodyClassName);
+        console.log("Menu toggle clicked bodyClassName=" + document.body.className);
 
         if (document.body.classList.contains("nav-md")) {
             this.setState({ menuVisible: false });
