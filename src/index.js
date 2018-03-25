@@ -9,12 +9,8 @@ import registerServiceWorker from './registerServiceWorker';
 // TODO : Integrate redux
 //const store = createStore()
 
-const bodyClassName = document.body.className;
-
-console.log("bodyClassName : " + bodyClassName);
-
 ReactDOM.render(
-    <Container bodyClassName = {bodyClassName}/>,
+    <Container/>,
     document.getElementById('root')
 );
 

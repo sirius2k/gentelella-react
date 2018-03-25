@@ -6,12 +6,6 @@ import Dashboard from './dashboard/Dashboard';
 import Footer from './common/Footer';
 
 class Container extends React.Component {
-    static get propTypes() {
-        return {
-            bodyClassName: PropTypes.string
-        }
-    }
-
     constructor(props) {
         super(props);
         this.state = {
@@ -22,7 +16,7 @@ class Container extends React.Component {
     }
 
     handleMenuToggle() {
-        console.log("handleMenuToggle triggered! bodyClassName=" + this.props.bodyClassName);
+        console.log("Menu toggle clicked bodyClassName=" + document.body.className);
 
         if (document.body.classList.contains("nav-md")) {
             this.setState({ menuVisible: false });
