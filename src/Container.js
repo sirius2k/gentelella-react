@@ -1,9 +1,8 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import SideBar from './common/SideBar';
-import TopNavigation from './common/TopNavigation';
+import SideBar from './layout/sidebar/SideBar';
+import TopNavigation from './layout/TopNavigation';
 import Dashboard from './dashboard/Dashboard';
-import Footer from './common/Footer';
+import Footer from './layout/Footer';
 
 class Container extends React.Component {
     constructor(props) {

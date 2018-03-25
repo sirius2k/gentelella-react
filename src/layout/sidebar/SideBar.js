@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './SideBar.css';
+import Clearfix from 'react-clearfix';
+import TitleBar from './TitleBar';
 
 class SideBar extends React.Component {
   static get propTypes() {
@@ -11,11 +13,12 @@ class SideBar extends React.Component {
     return (
         <div className="col-md-3 left_col">
           <div className="left_col scroll-view">
-            {/* Title Bar */}
-            <div className="navbar nav_title noBorder">
-              <a href="index.html" className="site_title"><i className="fa fa-paw"></i> <span>Gentelella Alela!</span></a>
-            </div>
-            <div className="clearfix"></div>
+            <TitleBar/>
+            <Clearfix/>
+            {/* 
+              TODO : Remove clearfix
+              <div className="clearfix"></div> 
+            */}
 
             {/* <!-- menu profile quick info --> */}
             <div className="profile clearfix">
