@@ -17,12 +17,7 @@ If you want to run this example, you need to install npm first. If you want to p
 
 
 ### Installing
-Just clone the project and run it with npm. But, you will need to install additional package.
-
-React clearfix component : https://www.npmjs.com/package/react-clearfix
-```bash
-$ npm install react-clearfix
-```
+Just clone the project and run it with npm.
 
 ## Deployment
 TBD
