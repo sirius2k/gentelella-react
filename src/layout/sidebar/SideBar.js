@@ -17,7 +17,7 @@ class SideBar extends React.Component {
             <TitleBar/>
             <Clearfix/>
             <Profile/>
-            <br />
+            <br/>
             {/* <!-- sidebar menu --> */}
             <div id="sidebar-menu" className="main_menu_side hidden-print main_menu">
               <div className="menu_section">
