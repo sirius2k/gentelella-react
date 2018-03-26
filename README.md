@@ -7,7 +7,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 This project is containing react projects. So you just need to start it with npm command as following.
 
 ```bash
+$ npm install
 $ npm start 
+```
+
+If you didn't install react-scripts, you need to install it first to see apps in browsers.
+
+```bash
+$ npm install -g react-scripts
 ```
 
 Then the browser will be opened with http://localhost:3000. You will see Gentelella template.
