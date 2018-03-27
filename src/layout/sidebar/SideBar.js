@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './SideBar.css';
 import Clearfix from 'react-clearfix';
 import TitleBar from './TitleBar';
 import SideBarProfile from './SideBarProfile';
