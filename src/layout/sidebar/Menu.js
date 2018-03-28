@@ -1,6 +1,8 @@
-import React from 'react'
+import React from 'react';
 
-const SideBarMenu = (props) => {
+var generalMenu = require('./general_menu.json');
+
+const Menu = (props) => {
     return (
         <div id="sidebar-menu" className="main_menu_side hidden-print main_menu">
             <div className="menu_section">
@@ -105,4 +107,4 @@ const SideBarMenu = (props) => {
     );
 }
 
-export default SideBarMenu;
+export default Menu;

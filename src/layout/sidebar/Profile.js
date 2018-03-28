@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SideBarProfile = (props) => {
+const Profile = (props) => {
     return (
         <div className="profile clearfix">
           <div className="profile_pic">
@@ -14,4 +14,4 @@ const SideBarProfile = (props) => {
     );
 }
 
-export default SideBarProfile;
+export default Profile;

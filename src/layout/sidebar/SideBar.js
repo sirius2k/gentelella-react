@@ -2,9 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Clearfix from 'react-clearfix';
 import TitleBar from './TitleBar';
-import SideBarProfile from './SideBarProfile';
-import SideBarMenu from './SideBarMenu';
-import SideBarFooter from './SideBarFooter';
+import Profile from './Profile';
+import Menu from './Menu';
+import Footer from './Footer';
 
 class SideBar extends React.Component {
   static get propTypes() {
@@ -17,10 +17,10 @@ class SideBar extends React.Component {
           <div className="left_col scroll-view">
             <TitleBar/>
             <Clearfix/>
-            <SideBarProfile/>
+            <Profile/>
             <br/>
-            <SideBarMenu/>
-            <SideBarFooter/>
+            <Menu/>
+            <Footer/>
           </div>
         </div>
     );
