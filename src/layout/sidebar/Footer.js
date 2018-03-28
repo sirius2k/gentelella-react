@@ -1,6 +1,6 @@
 import React from 'react'
 
-const SideBarFooter = (props) => {
+const Footer = (props) => {
     return (
       <div className="sidebar-footer hidden-small">
         <a data-toggle="tooltip" data-placement="top" title="Settings">
@@ -19,4 +19,4 @@ const SideBarFooter = (props) => {
     );
 }
 
-export default SideBarFooter;
+export default Footer;
