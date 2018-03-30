@@ -1,0 +1,30 @@
+{ 
+    "menuGroup": [
+        {
+            "name": "General",
+            "menu": [
+                {
+                    "name": "Home",
+                    "className": "fa fa-home",
+                    "submenu": [
+                        { "name": "Dashboard", "href": "index.html" },
+                        { "name": "Dashboard2", "href": "index2.html" },
+                        { "name": "Dashboard3", "href": "index3.html" }
+                    ]
+                },
+                {
+                    "name": "Forms",
+                    "className": "fa fa-edit",
+                    "submenu": [
+                        { "name": "General Form", "href": "form.html" },
+                        { "name": "Advanced Components", "href": "form_advanced.html" },
+                        { "name": "Form Validation", "href": "form_validate.html" },
+                        { "name": "Form Wizard", "href": "form_wizard.html" },
+                        { "name": "Form Upload", "href": "form_upload.html" },
+                        { "name": "Form Button", "href": "form_button.html" }
+                    ]
+                }                
+            ]
+        }
+    ]
+}
