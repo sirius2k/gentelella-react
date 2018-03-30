@@ -1,6 +1,6 @@
 import React from 'react';
 
-var generalMenu = require('./general_menu.json');
+var generalMenu = require('./menu.json');
 
 const Menu = (props) => {
     return (
