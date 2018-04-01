@@ -23,7 +23,49 @@
                         { "name": "Form Upload", "href": "form_upload.html" },
                         { "name": "Form Button", "href": "form_button.html" }
                     ]
-                }                
+                },
+                {
+                    "name": "UI Elements",
+                    "className": "fa fa-desktop",
+                    "submenu": [
+                        { "name": "General Elements", "href": "general_elements.html" },
+                        { "name": "Media Gallery", "href": "media_gallery.html" },
+                        { "name": "Typohraphy", "href": "typography.html" },
+                        { "name": "Icons", "href": "icons.html" },
+                        { "name": "Glyphicons", "href": "glyphicons.html" },
+                        { "name": "Widgets", "href": "widges.html" },
+                        { "name": "Invoice", "href": "invoice.html" },
+                        { "name": "Inbox", "href": "inbox.html" },
+                        { "name": "Calendar", "href": "calendar.html" }
+                    ]                    
+                },
+                {
+                    "name": "Tables",
+                    "className": "fa fa-table",
+                    "submenu": [
+                        { "name": "Tables", "href": "tables.html" },
+                        { "name": "Table Dynamic", "href": "tables_dynamic.html" }
+                    ]                    
+                },
+                {
+                    "name": "Data Presentation",
+                    "className": "fa fa-bar-chart-o",
+                    "submenu": [
+                        { "name": "Chart JS", "href": "chartjs.html" },
+                        { "name": "Chart JS2", "href": "chartjs2.html" },
+                        { "name": "Moris JS", "href": "morisjs.html" },
+                        { "name": "ECharts", "href": "echarts.html" },
+                        { "name": "Other Charts", "href": "other_charts.html" }
+                    ]                    
+                },
+                {
+                    "name": "Layouts",
+                    "className": "fa fa-clone",
+                    "submenu": [
+                        { "name": "Fixed Sidebar", "href": "fixed_sidebar.html" },
+                        { "name": "Fixed Footer", "href": "fixed_footer.html" }
+                    ]                    
+                }
             ]
         }
     ]
