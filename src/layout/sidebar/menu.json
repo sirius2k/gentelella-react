@@ -67,6 +67,50 @@
                     ]                    
                 }
             ]
+        },
+        {
+            "name": "Live on",
+            "menu": [
+                {
+                    "name": "Additional Pages",
+                    "className": "fa fa-bug",
+                    "submenu": [
+                        { "name": "E-commerce", "href": "e_commerce.html" },
+                        { "name": "Projects", "href": "projects.html" },
+                        { "name": "Project Detail", "href": "projects_detail.html" },
+                        { "name": "Contacts", "href": "contacts.html" },
+                        { "name": "Profile", "href": "profile.html" }
+                    ]                    
+                },
+                {
+                    "name": "Extras",
+                    "className": "fa fa-windows",
+                    "submenu": [
+                        { "name": "403 Error", "href": "page_403.html" },
+                        { "name": "404 Error", "href": "page_404.html" },
+                        { "name": "500 Error", "href": "page_500.html" },
+                        { "name": "Plain Page", "href": "plain_page.html" },
+                        { "name": "Login Page", "href": "login.html" },
+                        { "name": "Pricing Tables", "href": "pricing_tables.html" }
+                    ]                    
+                },
+                {
+                    "name": "Multilevel Menu",
+                    "className": "fa fa-sitemap",
+                    "submenu": [
+                        { 
+                            "name": "Level One", 
+                            "href": "#level1_1",
+                            "nestedMenu": [
+                                { "name": "Level Two", "href": "level2.html", "className": "sub_menu" },
+                                { "name": "Level Two", "href": "#level2_1" },
+                                { "name": "Level Two", "href": "#level2_2" }
+                            ]
+                        },
+                        { "name": "Level one", "href": "#level1_2" }
+                    ]                    
+                }
+            ]
         }
     ]
 }
