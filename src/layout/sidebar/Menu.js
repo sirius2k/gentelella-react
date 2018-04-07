@@ -3,6 +3,8 @@ import React from 'react';
 var generalMenu = require('./menu.json');
 
 const Menu = (props) => {
+    console.log("menu = " + JSON.stringify(generalMenu));
+
     return (
         <div id="sidebar-menu" className="main_menu_side hidden-print main_menu">
             <div className="menu_section">
